@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Museo Sans Cyrl 300';
+}
+@import "variable";
+@import "general";
+@import "mixin";
+@import "forms";
+@import "catalog";
+@import "reviews";
+@import "footer";
+@import "modal";
+@import "media";

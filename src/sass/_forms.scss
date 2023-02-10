@@ -1,0 +1,30 @@
+.feed-form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 260px;
+    margin-top: 36px;
+    input{
+        height: 54px;
+        padding: 0px 20px;
+        border: none;
+        border-radius:5px;
+        margin-top: 12px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #4B4B4B;
+        &:nth-child(1){
+            margin-top: 0px;
+        }
+    }
+    .button_form{
+        width: 100%;
+        font-weight: 500;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-top: 17px;
+        cursor: pointer;
+
+    }
+}
