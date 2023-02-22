@@ -122,6 +122,7 @@ body{
         }
     }
 }
+
 .benefits{
     min-height: 472px;
     padding: 70px 0px 67px 0px;
@@ -140,7 +141,13 @@ body{
         &__icon{
             font-size: 100px;
             color:$base-color;
+            
+            &_anim{
+                animation: hearbeat 2s ease infinite;
+            }
+          
         }
+        
         &__title{
             margin: 35px 0px 0px 0px;
             font-weight: 700;

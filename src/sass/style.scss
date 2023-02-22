@@ -2,6 +2,11 @@
     box-sizing: border-box;
     font-family: 'Museo Sans Cyrl 300';
 }
+@import "stylesheet";
+@import "slick";
+@import "icon";
+@import "icon_fonts";
+@import "animations";
 @import "variable";
 @import "general";
 @import "mixin";

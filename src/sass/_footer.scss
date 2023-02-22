@@ -1,6 +1,11 @@
 .footer{
-    height: 630px;
+    min-height: 630px;
     position: relative;
+    iframe{
+        width: 100%;
+        border:none;
+        height: 630px;
+    }
     &__info{
         text-align: center;
         background-color: $base-color;
